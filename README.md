@@ -1,12 +1,43 @@
-# debugging in ruby and rails
+<!--
+Creator: Team, editing by Cory
+Market: SF
+-->
 
-## Intro
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-| Objectives                                       |
-| :----                                            |
-| Use pry as a REPL                     |
-| Enter objects and make changes from pry        |
-| Debug Rails projects with `binding.pry` and standard debugger commands |
+# Debugging in Ruby and Rails
+
+### Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
+
+Debugging skills are essential to working on an engineering team. At some phases of development, tracking errors and debugging is the majority of the work. Having the tools and skills to do this work effectively will be a benefit to you in a work environment. Many contracting jobs
+
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
+
+- Navigate a large, mature project.
+- Submit pull requests to contribute code changes to projects you do not own.
+
+### Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
+
+- Build a full Rails application
+- Manage a small codebase that you built from the ground up.
+- Debug and track issues on GitHub.
+
+
+# Challenge!
+
+[This debugging lab](https://github.com/sf-wdi-31/publify-debugging-lab) takes a large, mature rails app called [Publify](https://github.com/publify/publify). What is Publify? From their docs:
+
+> Publify is a simple but full featured web publishing software. It's built around a blogging engine and a small message system connected to Twitter.
+
+> Publify follows the principles of the IndieWeb, which are self hosting your Web site, and Publish On your Own Site, Syndicate Everywhere.
+
+> Publify has been around since 2004 and is the oldest Ruby on Rails open source project alive.
 
 
 ## `pry` as REPL
@@ -180,7 +211,7 @@ When paused on line 16 above, `step` would move through the code in the `sort` a
 
 
 
-## pry glossary
+## Pry Glossary
 
 A few commands you might make use of include
 - edit                   - edit a file or method
@@ -195,7 +226,7 @@ A few commands you might make use of include
 
 It'll also help if you [add a few shortcut commands](https://github.com/deivid-rodriguez/pry-byebug#matching-byebug-behaviour) so you don't have to type `continue`, `step` etc.
 
-## better errors
+## Better Errors
 
 Better errors is a replacement for the rails error page that adds:
 * a clearer stacktrace
@@ -205,7 +236,7 @@ Better errors is a replacement for the rails error page that adds:
 
 ![better errors](https://camo.githubusercontent.com/3fa6840d5e20236b4f768d6ed4b42421ba7c2f21/68747470733a2f2f692e696d6775722e636f6d2f367a42474141622e706e67)
 
-## annotate
+## Annotate
 
 The annotate gem can make working with your models a little easier, as it automatically adds comments to your model files to reflect the state of your database.
 
