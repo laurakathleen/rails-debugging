@@ -11,7 +11,7 @@ Market: SF
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Debugging skills are essential to working on an engineering team. At some phases of development, tracking errors and debugging is the majority of the work. Having the tools and skills to do this work effectively will be a benefit to you in a work environment. Many contracting jobs
+Debugging skills are essential to working on an engineering team. At some phases of development, tracking errors and debugging is the majority of the work. Having the tools and skills to do this work effectively will be a benefit to you in a work environment. Some contracting jobs will drop you into a code base built by other contractors who are no longer actively working on the project. It will be important to be able to jump into a piece of code and begin navigating through the project to find bugs.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
