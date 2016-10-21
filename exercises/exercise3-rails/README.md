@@ -1,6 +1,6 @@
 # setup
 
-Run the following as per usual:
+Run the following:
 
 ```bash
 bundle
@@ -10,13 +10,23 @@ rake db:seed
 rails s
 ```
 
+Note: this is running an old version of rails and rake. You may need to run the following instead:
+
+```bash
+bundle
+bundle exec rake db:create
+bundle exec rake db:migrate
+bundle exec rake db:seed
+rails s
+```
+
 ## exercises
 
 ### Part A - add the gems
 
 Add `pry-rails` and `pry-byebug` to your Gemfile and then `bundle install`.  These should go under development & test group.
 
-Now start your `rails console` and observe its new pry-powers.  Feel free to explore.
+Now start your `rails console` and observe its new pry-powers.  Feel free to explore. 
 
 ### Part B - find the bug
 

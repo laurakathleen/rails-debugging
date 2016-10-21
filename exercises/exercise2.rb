@@ -1,6 +1,6 @@
 # Start by opening pry and requiring this file
 #   $ pry
-#   require './exercise2.rb'
+#   require './exercises/exercise2.rb'
 
 # if that went well, you should be able to do:
 #   dude = Dude.new
@@ -10,7 +10,10 @@
 
 # Exercise 1 : edit
 # Use the pry `ls` and `cd` commands to enter the Cow class and see its methods
-# Use the pry edit or edit-method commands to fix Cow to be more cow-like.
+# Use the pry edit commands to fix Cow to be more cow-like.
+# If you set your default editor to be Atom, there might be problems at this stage.
+# I had to change my editor to Sublime with the command Pry.config.editor = 'subl -w'
+# because terminal froze when it was trying to open Atom.
 # Test your fix in pry.
 # Did the original `cow` instance get fixed too?
 

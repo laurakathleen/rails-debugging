@@ -29,17 +29,6 @@ Debugging skills are essential to working on an engineering team. At some phases
 - Debug and track issues on GitHub.
 
 
-# Challenge!
-
-[This debugging lab](https://github.com/sf-wdi-31/publify-debugging-lab) takes a large, mature rails app called [Publify](https://github.com/publify/publify). What is Publify? From their docs:
-
-> Publify is a simple but full featured web publishing software. It's built around a blogging engine and a small message system connected to Twitter.
-
-> Publify follows the principles of the IndieWeb, which are self hosting your Web site, and Publish On your Own Site, Syndicate Everywhere.
-
-> Publify has been around since 2004 and is the oldest Ruby on Rails open source project alive.
-
-
 ## `pry` as REPL
 
 #### Read, Evaluate, Print, Loop
@@ -125,7 +114,7 @@ locals: _  __  _dir_  _ex_  _file_  _in_  _out_  _pry_
 #### Exercise 0 - 2
 * Follow along in [exercise 0](./exercises/exercise0.md) to install `pry` and configure it to use your favorite text editor.  
 * Learn about `cd` and `ls` in [exercise 1](./exercises/exercise1.md).
-* Mooove on to [exercise 2](./exercises/exercise2.md), and fix the `Cow#say_hello` method through `pry`.
+* Mooove on to [exercise 2](/exercises/exercise2.rb), and fix the `Cow#say_hello` method through `pry`.
 
 
 ## Pry and Rails
@@ -262,3 +251,15 @@ Schema information will be added as comments to the top of each of your models. 
 #  updated_at     :datetime         not null
 #
 ```
+
+
+
+# Challenge!
+
+[This debugging lab](https://github.com/sf-wdi-31/publify-debugging-lab) takes a large, mature rails app called [Publify](https://github.com/publify/publify). What is Publify? From their docs:
+
+> Publify is a simple but full featured web publishing software. It's built around a blogging engine and a small message system connected to Twitter.
+
+> Publify follows the principles of the IndieWeb, which are self hosting your Web site, and Publish On your Own Site, Syndicate Everywhere.
+
+> Publify has been around since 2004 and is the oldest Ruby on Rails open source project alive.

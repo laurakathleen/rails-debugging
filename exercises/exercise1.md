@@ -16,13 +16,11 @@ $ pry
   my_hash = { username: 'webdev', email: 'webmaster@example.com' }
   ```
 
-4. Explore your hash using the `cd` and `ls` commands.  Try to call some of the listed instance methods available to you, such as `#keys`.
+4. Explore your hash using the `cd` and `ls` commands.  Try to call some of the listed instance methods available to you, such as `keys`.
   ```ruby
   cd my_hash
   ls
   ```
-
-  Question: Can you still use your `hello_world` method here?  Why?
 
 5. While still inside `my_hash`, add a new instance method called `crazy_hash` that `puts 'crazy'`.  Then `cd ..` out of `my_hash` and try to call `crazy_hash`.  
 
